@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "natural": "^6.7.2",
+    "stopword": "^2.0.8"
+  }
+}

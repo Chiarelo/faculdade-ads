@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso ideal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lista2.js"></script>
+</head>
+<body>
+    <div id="Container">
+        <h1>Calculadora de peso ideal </h1>
+        <div id="Form">
+            <div>
+                <label for="number">Insira a sua altura</label>
+                <input type="number" id="altura">
+            </div>
+            <div>
+                <label for="number">Informe seu sexo</label>
+                <select  id="sexo">
+                    <option value="1"> Feminino </option>
+                    <option value="2"> Masculino </option>
+                </select>
+            </div>
+            <div>
+                <button onclick="ex19()">Calcular</button>
+            </div>
+            <div id="areaResposta">
+                <p id="Resultado"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

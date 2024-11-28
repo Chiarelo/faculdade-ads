@@ -1,0 +1,6 @@
+Interface vs Classe Abstrata
+Interfaces não possuem atributos, diferentemente das classes abstratas.
+
+Interfaces suportam herança múltipla (uma classe pode implementar várias interfaces)
+
+Interfaces só podem conter métodos abstratos, enquanto as classes abstratas podem(opcionalmente) conter métodos concretos.

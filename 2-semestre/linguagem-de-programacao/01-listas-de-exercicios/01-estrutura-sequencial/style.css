@@ -1,0 +1,118 @@
+/* ajustando o fundo da página */
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: helvetica;
+  }
+  
+  #Container {
+    width: 50%;
+    margin: 30px auto;
+    border: 1px solid #000;
+    background-color: #111;
+    color: #fff;
+    box-shadow: 0  4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+  }
+  
+  #Form {
+    border: none;
+    padding: 20px; /* espaçamento interno */
+    margin: 20px; /* espaçamento externo */
+  }
+  
+  /* ajustando onde aparecerá a solução */
+  #areaResposta {
+    margin-top: 20px;
+    background-color: #4b4949;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px; /* Reduzido o padding para evitar sobreposição */
+    overflow: hidden; /* Para esconder qualquer conteúdo que possa transbordar */
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1em;
+  }
+  
+  h1 {
+    color: #1f6eb5;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #0f4b63;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  /* ajustando todos os inputs */
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 4px; 
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #4b4949;
+    color: #ffffff;
+  }
+  
+  /* ajustando todas as labels */
+  label {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* ajustando o botão */
+  button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #eee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  button:hover {
+    background-color: #0b3647;
+  }
+  
+  /* ajustando a lista de exercícios */
+  /* Ajuste a lista de exercícios para exibir os links lado a lado */
+/* Ajuste a lista de exercícios para exibir os links em quatro colunas */
+ul {
+  list-style: none;
+  padding: 0; /* Remova o espaçamento interno padrão da lista */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Define quatro colunas */
+  gap: 20px; /* Espaçamento entre os links */
+}
+
+/* Estilize os links */
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #eee;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0f4b63;
+  font-weight: bold;
+  font-size: 1em;
+}

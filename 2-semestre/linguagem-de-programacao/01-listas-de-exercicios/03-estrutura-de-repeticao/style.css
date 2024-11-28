@@ -1,0 +1,84 @@
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: helvetica;
+    margin: 0; /* Remova a margem padrão do corpo */
+    padding: 0; /* Remova o preenchimento padrão do corpo */
+  }
+
+  /* Estilos do contêiner principal */
+  #Container {
+    width: 50%;
+    margin: 30px auto;
+    background-color: #111;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+    padding: 20px; /* Adicionado preenchimento para espaçamento interno */
+  }
+
+  /* Estilos do formulário */
+  #Form {
+    border: none;
+    margin: 20px;
+    padding: 20px; /* Adicionado preenchimento para espaçamento interno */
+  }
+
+  /* Estilos do botão */
+  button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #eee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #0b3647;
+  }
+
+  /* Estilos da tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Remove a separação entre as células da tabela */
+    margin-top: 20px; /* Adicionado espaçamento superior para a tabela */
+  }
+
+  th, td {
+    border: 1px solid #fff; /* Cor da borda */
+    padding: 8px;
+    text-align: center; /* Centraliza o texto nas células */
+  }
+
+  th {
+    background-color: #007bff; /* Cor de fundo do cabeçalho da tabela */
+    color: #fff;
+  }
+
+  /* Estilos para a área de resposta */
+  #areaResposta {
+    margin-top: 20px;
+    background-color: #4b4949;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1em;
+  }
+
+  /* Estilos para o título */
+  h1 {
+    color: #1f6eb5;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #0f4b63;
+  }

@@ -1,0 +1,14 @@
+ul {
+  border: red solid 1px;
+  margin-right: 5px;
+  list-style-position: outside; /* Posição da bolinha fora do contêiner */
+  padding-left: 20px; /* Ajusta o espaçamento entre a borda da ul e o texto */
+}
+
+ul li {
+  border: black solid 1px;
+  padding-left: 0; /* Remove o preenchimento padrão do li */
+  margin-left: -15px; /* Ajusta a posição do texto em relação à bolinha */
+
+}
+  

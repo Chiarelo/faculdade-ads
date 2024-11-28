@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "id_cliente": 1,
+  "status": "aprovado",
+  "data": "2024-11-08",
+  "itens": [
+
+    {
+    "id": 100,
+    "id_produto": 10,
+    "preco": 100,
+    "qtde": 3
+  },
+    {
+      "id_produto": 11,
+      "preco": 500,
+      "qtde": 3
+    }
+
+  ]
+}

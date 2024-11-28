@@ -1,0 +1,84 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do formulário de pesquisa */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo do rótulo e entrada de texto */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 0%;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+/* Estilo do botão de pesquisa */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.item {
+    margin: 0;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em coluna (imagem acima do título) */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%; /* Para garantir que a imagem não seja maior que o contêiner */
+}
+
+h2, p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

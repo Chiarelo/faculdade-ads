@@ -1,0 +1,14 @@
+lista = new LinkedList();
+lista.append(10);
+lista.append(12);
+lista.append(5);
+console.log(lista.size());
+console.log(`Lista : ${lista.toString()}`);
+console.log(`----------------------`);
+console.log(`Elemento removido: ${lista.removerPrimero()}`);
+console.log(lista.size());
+console.log(`Lista : ${lista.toString()}`);
+console.log(`----------------------`);
+lista.insereInicio(8);
+console.log(lista.size());
+console.log(lista.toString());

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando api</title>
+    <script src="cep.js"></script>
+</head>
+<body>
+    <div>
+        <form>
+            <div>
+                <label for="cep">Informe CEP</label>
+                <input type="number"  id="cep">
+            </div>
+            <div>
+                <label for="logradouro">logradouro</label>
+                <input type="text" id="logradouro" readonly>
+            </div>
+            <div>
+                <button type="button" onclick="api()">
+                    Consulta CEP
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
