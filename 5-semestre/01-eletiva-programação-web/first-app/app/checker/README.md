@@ -27,12 +27,12 @@
 
 ### 💻 Para PC:
 <p align="center">
-  <img alt="Projeto para PC" src="" width="800px">
+  <img alt="Projeto para PC" src="https://github.com/user-attachments/assets/8607a2b2-4e64-4054-8337-776ddf9ad3ca" width="800px">
 </p>
 
 ### 📱 Para Celular:
 <p align="center">
-  <img alt="Projeto para Celular" src="" width="300px">
+  <img alt="Projeto para Celular" src="https://github.com/user-attachments/assets/0c4c4c05-f339-4449-85ae-8e5db6b76901" width="300px">
 </p>
 
 ---
