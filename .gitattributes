@@ -1,1 +1,5 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+4-semestre/POO-Java/listas/01-lista/lista01.zip !text !filter !merge !diff
+4-semestre/POO-Java/listas/03-lista/lista3.zip !text !filter !merge !diff
+4-semestre/ProgramaçãoWeb-Python/05-trabalho-laura/05-trabalho-laura.zip !text !filter !merge !diff
+4-semestre/ProgramaçãoWeb-Python/05-trabalho-vini.zip !text !filter !merge !diff

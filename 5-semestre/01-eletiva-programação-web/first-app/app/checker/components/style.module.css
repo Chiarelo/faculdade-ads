@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+    background: url("../assets/keith-misner-h0Vxgz5tyXA-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.titulo {
+    color: white;
+    margin: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 0;
+    border: 10px solid #34b710;
+    width: fit-content;
+
+}
+
+.piece {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cellBlack {
+    background-color: #39393A;
+}
+
+.cellWhite {
+    background-color: #fff;
+}
+
+
+.pieceTop {
+    justify-self: center;
+    display: flex;
+    background-color: #08BDBD;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    outline: 1px solid black;
+
+    &:hover {
+        background-color: #03045E;
+        cursor: pointer;
+    }
+}
+
+.pieceBottom {
+    display: flex;
+    background-color: #B80C09;
+    width: 25px;
+    height: 25px;
+    border-radius: 999px;
+    justify-self: center;
+    outline: 1px solid black;
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+
+    &:hover {
+        background-color: #BBB6DF;
+        cursor: pointer;
+        border-radius: 0;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+}
+
+@media (width <= 48em) {
+    .container {
+        height: 100vh;
+    }
+
+    .grid {
+        grid-template-columns: repeat(8, 30px);
+        grid-template-rows: repeat(8, 30px);
+    }
+
+    .pieceTop {
+        width: 15px;
+        height: 15px;
+    }
+    .pieceBottom {
+        width: 15px;
+        height: 15px;
+    }
+}
