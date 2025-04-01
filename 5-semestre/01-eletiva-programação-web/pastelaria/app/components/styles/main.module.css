@@ -1,0 +1,16 @@
+.grid {
+     display: grid;
+     grid-template-columns: repeat(3, minmax(350px, 1fr));
+     gap: 1rem;
+     width: 100%; /* Certificar-se de que ocupa toda a largura disponível */
+     margin-bottom: 2rem;
+     background-color: #0a0a0a;
+     padding: 0 1rem;
+ }
+
+@media (max-width: 680px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr); /* Apenas uma coluna para telas pequenas */
+        justify-content: center;
+    }
+}
