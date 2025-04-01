@@ -1,4 +1,4 @@
-# Tabuleiro de Damas
+# Pastelaria do Zé
 
 <p align="center">
   Este projeto consiste em uma landing page responsiva e estilizada, desenvolvida com Next.js e CSS Modules. A página exibe o cardápio de uma pastelaria, destacando os itens em estoque e em falta de forma intuitiva.<br><br>
