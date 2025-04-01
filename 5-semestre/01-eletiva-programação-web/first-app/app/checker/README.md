@@ -1,12 +1,7 @@
 # Tabuleiro de Damas
 
-<h1 align="center">
-  <img alt="Logo" src="" width="350px">
-</h1>
-
 <p align="center">
-  Este projeto apresenta um Tabuleiro de Damas responsivo e estilizado, implementado com Next.js e CSS Modules.
-  Ele exibe as peças corretamente posicionadas, sem interatividade, mas com efeitos visuais diferenciados. <br><br>
+  Este projeto consiste em uma landing page responsiva e estilizada, desenvolvida com Next.js e CSS Modules. A página exibe o cardápio de uma pastelaria, destacando os itens em estoque e em falta de forma intuitiva.<br><br>
 </p>
 
 <p align="center">
@@ -27,13 +22,15 @@
 
 ### 💻 Para PC:
 <p align="center">
-  <img alt="Projeto para PC" src="https://github.com/user-attachments/assets/8607a2b2-4e64-4054-8337-776ddf9ad3ca" width="800px">
+  <img alt="Projeto para PC" src="https://github.com/user-attachments/assets/158cbf47-aa51-418d-82c7-4e969b73b58a" width="800px">
 </p>
+
 
 ### 📱 Para Celular:
 <p align="center">
-  <img alt="Projeto para Celular" src="https://github.com/user-attachments/assets/0c4c4c05-f339-4449-85ae-8e5db6b76901" width="300px">
+  <img alt="Projeto para Celular" src="https://github.com/user-attachments/assets/e5ab1d2f-2e06-4505-b4ba-0716b2a8d160" width="300px">
 </p>
+
 
 ---
 
@@ -82,78 +79,9 @@ Esse projeto foi desenvolvido utilizando:
 A estilização do projeto foi feita utilizando CSS Modules, o que permite encapsular os estilos e evitar conflitos.
 Abaixo estão os principais pontos da estilização:
 
-### 🏁 Tabuleiro
-- **`.grid`**: Define o layout do tabuleiro como uma grade 8x8.
-  ```css
-  .grid {
-      display: grid;
-      grid-template-columns: repeat(8, 50px);
-      grid-template-rows: repeat(8, 50px);
-      gap: 0;
-      border: 10px solid #34b710;
-      width: fit-content;
-  }
-  ```
-
-### ⚫⚪ Células
-- **`.cellBlack`** e **`.cellWhite`**: Define as cores das células do tabuleiro.
-  ```css
-  .cellBlack {
-      background-color: #39393A;
-  }
-
-  .cellWhite {
-      background-color: #fff;
-  }
-  ```
-
-### 🔴🔵 Peças
-- **`.pieceTop`** e **`.pieceBottom`**: Estiliza as peças superiores e inferiores.
-  ```css
-  .pieceTop {
-      justify-self: center;
-      display: flex;
-      background-color: #08BDBD;
-      width: 50%;
-      height: 50%;
-      border-radius: 50%;
-      outline: 1px solid black;
-  }
-
-  .pieceBottom {
-      display: flex;
-      background-color: #B80C09;
-      width: 25px;
-      height: 25px;
-      border-radius: 999px;
-      justify-self: center;
-      outline: 1px solid black;
-      transition: all 0.3s ease;
-  }
-  ```
-
-### 📱 Responsividade
-- **Media Queries**: Ajusta o tamanho do tabuleiro e das peças para telas menores.
-  ```css
-  @media (max-width: 48em) {
-      .grid {
-          grid-template-columns: repeat(8, 30px);
-          grid-template-rows: repeat(8, 30px);
-      }
-
-      .pieceTop, .pieceBottom {
-          width: 15px;
-          height: 15px;
-      }
-  }
-  ```
-
----
+- Os cards dos pastéis foram desenvolvidos para serem responsivos, utilizando valores mínimos e máximos para garantir uma boa adaptação em diferentes tamanhos de tela.
 
 
-## 📝 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 <p align="center">
   <img alt="Next.js" src="https://github.com/user-attachments/assets/fa6ab436-ae1b-41e0-b26c-2af8f4d8c2a6" width="120px" />
